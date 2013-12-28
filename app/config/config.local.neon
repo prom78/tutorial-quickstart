@@ -1,7 +1,14 @@
 parameters:
 
 nette:
+    database:
+        dsn: 'mysql:host=127.0.0.1;dbname=quickstart'
+        user: root
+        password: root
 
 services:
+        authenticator: Nette\Security\SimpleAuthenticator([
+                kathy: 12345
+                ])
 
 factories:

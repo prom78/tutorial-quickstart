@@ -1,5 +1,5 @@
 {block #navig}
-	<li n:if="$user->loggedIn"><a n:href="Post:create">Write new post</a></li>
+	<a n:href="Post:create" n:if="$user->loggedIn">Create a post</a>
 {/block}
 
 {block #content}

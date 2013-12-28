@@ -12,7 +12,7 @@ class HomepagePresenter extends BasePresenter
 
 
 
-	public function __construct(Nette\Database\Connection $database)
+	public function __construct(Nette\Database\Context $database)
 	{
 		$this->database = $database;
 	}

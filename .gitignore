@@ -1,6 +1,5 @@
 log/*
 temp/*
-libs/*
 
 .DS_Store
 !.gitignore
